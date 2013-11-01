@@ -18,8 +18,7 @@ Package: rkutils
 Section: utils
 Architecture: any
 Depends:
- libc6,
- libusb
+ libusb-0.1-4
 Suggests:
 Description: rkutils
  "rkutils" provides utilities for development and flashing of Android images
