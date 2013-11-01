@@ -1,0 +1,29 @@
+Building from git repository
+============================
+
+# Install build dependencies.
+
+# Clone repository
+git clone https://github.com/xypron/rkutils.git rkutils
+
+# Move to target directory
+cd rkutils/
+
+# Update from git repository
+git pull
+
+# Create configure script
+./autogen.sh
+
+# Configure
+./configure
+
+# Make
+./make -j6
+
+# Test
+./make check
+
+# Install
+sudo make install
+

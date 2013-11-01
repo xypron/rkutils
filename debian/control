@@ -1,0 +1,26 @@
+Source: rkutils
+Section: utils
+Priority: extra
+Maintainer: Heinrich Schuchardt <xypron.glpk@gmx.de>
+Build-Depends:
+ debhelper (>= 9.0.0),
+ autotools-dev,
+ autoconf-archive,
+ pkg-config,
+ libc6-dev,
+ libusb-dev
+Standards-Version: 3.9.4.0
+Vcs-Git: git://github.com/xypron/rkutils.git
+Vcs-browser: https://github.com/xypron/rkutils
+Homepage: http://xypron.github.io/rkutils/
+
+Package: rkutils
+Section: utils
+Architecture: any
+Depends:
+ libc6,
+ libusb
+Suggests:
+Description: rkutils
+ "rkutils" provides utilities for development and flashing of Android images
+ for RockChip systems.
