@@ -1,0 +1,4 @@
+SECONDARY:
+dist_man_MANS =
+
+EXTRA_DIST = 

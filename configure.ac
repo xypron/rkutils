@@ -41,6 +41,7 @@ dnl Makefiles
 AC_CONFIG_FILES([
   Makefile
   src/Makefile
+  man/Makefile
   ])
 
 dnl Generate files
